@@ -81,7 +81,7 @@ class RootSiblingsWrapper extends Component {
         this._updatedSiblings = {};
         return (
             <View style={styles.container}>
-                <StaticContainer shouldUpdate={false}>
+                <StaticContainer shouldUpdate>
                     {this.props.children}
                 </StaticContainer>
                 {elements}
